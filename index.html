@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Q2/FA1/TANTAY</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="JC Nicole A. Tantay ">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Links">
+        <meta name="revised" content="17-11-2023">
+    </head>
+    <body>
+        <center>
+            <br> <a href="#div1" class="link1">First Link</a>
+            <div id="div1">First Div</div>
+            <br> <a href="#div2" class="link2">Second Link</a> 
+            <div id="div2">Second Div</div>
+        </center>
+    </body>
+    <style>
+        a.link1:link{
+            background-color: lightskyblue;
+            color: navy;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 20px;
+            border: 2px solid blue;
+			margin-top: 200px;
+        }
+        a.link1:hover{
+            background-color: red;
+            color: yellow;
+        }
+        a.link1:active{
+            background-color: blueviolet;
+            color: orangered;
+        }
+        a.link1:visited{
+            background-color: pink;
+            color: red;
+        }
+        a.link2:link{
+            background-color: cornsilk;
+            color: yellow;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 20px;
+            border: 2px solid peachpuff;
+			margin-top: 200px;
+        }
+        a.link2:hover{
+            background-color: green;
+            color: orange;
+        }
+        a.link2:active{
+            background-color: blueviolet;
+            color: darkslategrey;
+        }
+        a.link2:visited{
+            background-color: teal;
+            color: black;
+        }
+        #div1 {
+            padding: 10px;
+            font-size: 20px;
+            border: 2px solid pink;
+			margin-top: 50px;
+            text-align: center;
+			padding-bottom: 100px;
+            width: 100px;
+            margin-bottom: 30px;
+        }
+        #div2 {
+            padding: 10px;
+            font-size: 20px;
+			margin-top: 50px;
+            text-align: center;
+            border: 2px solid teal;
+			padding-bottom: 100px;
+            width: 100px;
+        }
+        #div1:target{
+            color: purple;
+            background-color: plum;
+        }
+        #div2:target{
+            border:dotted;
+            border-color: green;
+            border-width: 10px;
+            background-color: cyan;
+        }
+    </style>
+</html>
